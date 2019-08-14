@@ -519,6 +519,9 @@ section {
 .team-members {
   margin-bottom: 25px;
 }
+#row1{
+  margin-bottom: 15px;
+}
 
 .social-icons {
   margin-top: 30px;
@@ -534,7 +537,7 @@ section {
 
 .social-icons ul li {
   float: left;
-  margin-right: 8px;
+  margin-right: 2px;
 }
 
 .social-icons ul li:last-child {
@@ -544,11 +547,11 @@ section {
 .social-icons ul li a {
   color: #fff;
   background-color: #d9d9d9;
-  height: 36px;
-  width: 36px;
-  line-height: 36px;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
   display: block;
-  font-size: 16px;
+  font-size: 12px;
   opacity: 0.8;
 }
 
@@ -570,7 +573,7 @@ section {
 .team-member:hover .social-icons ul li a.twitter {
   background-color: #2ac6f7;
 }
-.team-member:hover .social-icons ul li a.dribbble {
+.team-member:hover .social-icons ul li a.instagram {
   background-color: #ff5b92;
 }
 .team-member:hover .social-icons ul li a.linkedin {
@@ -873,6 +876,8 @@ section {
 
 #google-map {
   height: 350px;
+   margin-top:20px;
+  margin-bottom:30px;
 }
 
 #contact-us {
