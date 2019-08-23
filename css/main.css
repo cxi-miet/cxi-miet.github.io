@@ -522,6 +522,27 @@ section {
 #row1{
   margin-bottom: 15px;
 }
+#row1 .social-icons ul li a {
+  color: #fff;
+  background-color: #d9d9d9;
+  height: 34px;
+  width: 34px;
+  line-height: 30px;
+  display: block;
+  font-size: 16px;
+  opacity: 0.8;
+}
+#row1 .team-member:hover .social-icons ul li a.facebook {
+  background-color: #3b5999;
+}
+#row1 .team-member:hover .social-icons ul li a.instagram {
+  background-color: #ff5b92;
+}
+#row1 .team-member:hover .social-icons ul li a.linkedin {
+  background-color: #036dc0;
+}
+
+
 
 .social-icons {
   margin-top: 30px;
