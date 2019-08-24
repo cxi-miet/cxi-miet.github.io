@@ -522,6 +522,7 @@ section {
 #row1{
   margin-bottom: 15px;
 }
+
 #row1 .social-icons ul li a {
   color: #fff;
   background-color: #d9d9d9;
@@ -541,8 +542,6 @@ section {
 #row1 .team-member:hover .social-icons ul li a.linkedin {
   background-color: #036dc0;
 }
-
-
 
 .social-icons {
   margin-top: 30px;
