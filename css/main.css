@@ -617,6 +617,11 @@ section {
   color: #999;
 }
 
+.carousel-cell {
+  width: 60%;
+  border-radius: 5px;
+}
+
 /*************************
 *******Features CSS*******
 **************************/
@@ -1018,10 +1023,4 @@ ul.address {
   background-color: #ff6b00;
 }
 
-.carousel-cell {
-  width: 66%;
-  height: 300px;
-  margin-right: 10px;
-  border-radius: 5px;
-}
 /*Presets*/
