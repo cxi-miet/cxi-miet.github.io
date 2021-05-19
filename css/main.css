@@ -617,6 +617,11 @@ section {
   color: #999;
 }
 
+.carousel-cell {
+  width: 100%;
+  border-radius: 5px;
+}
+
 /*************************
 *******Features CSS*******
 **************************/
