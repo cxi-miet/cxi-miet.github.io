@@ -1018,4 +1018,10 @@ ul.address {
   background-color: #ff6b00;
 }
 
+.carousel-cell {
+  width: 66%;
+  height: 300px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
 /*Presets*/
