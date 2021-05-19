@@ -168,11 +168,11 @@
 		margin-bottom: 40px;
 		padding: 20px;
 	}
-	#twitter {
+	#workshop {
 		padding-bottom: 75px;
 	}
-	.twitter-left-control, 
-	.twitter-right-control {
+	.workshop-left-control, 
+	.workshop-right-control {
 		top: inherit;
 		bottom: 30px;
 		height: 25px;
@@ -180,11 +180,11 @@
 		line-height: 23px;
 		font-size: 14px;
 	}
-	.twitter-left-control {
+	.workshop-left-control {
 		left: 30px;
         z-index: 16
 	} 
-	.twitter-right-control {
+	.workshop-right-control {
 		right: 30px;
         z-index: 16
 	}

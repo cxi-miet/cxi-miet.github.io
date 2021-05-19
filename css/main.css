@@ -590,7 +590,7 @@ section {
 .team-member:hover .social-icons ul li a.facebook {
   background-color: #3b5999;
 }
-.team-member:hover .social-icons ul li a.twitter {
+.team-member:hover .social-icons ul li a.workshop {
   background-color: #2ac6f7;
 }
 .team-member:hover .social-icons ul li a.instagram {
@@ -693,29 +693,29 @@ section {
 }
 
 /*************************
-********Twitter CSS*******
+********workshop CSS*******
 **************************/
-#twitter {
+#workshop {
   background-image: url(../images/twitter-bg.jpg);
 }
 
-#twitter > div {
+#workshop > div {
   text-align: center;
   position: relative;
 }
 
-#twitter-carousel {
+#workshop-carousel {
   position: relative;
   z-index: 15;
 }
 
-.twitter-icon {
+.workshop-icon {
   position: relative;
   z-index: 15;
   color: #fff;
 }
 
-.twitter-icon .fa-twitter {
+.workshop-icon .fa-workshop {
   font-size: 24px;
   height: 64px;
   width: 64px;
@@ -724,7 +724,7 @@ section {
   position: relative;
 }
 
-.twitter-icon .fa-twitter:after {
+.workshop-icon .fa-workshop:after {
   position: absolute;
   content: "";
   border-width: 8px;
@@ -733,23 +733,23 @@ section {
   bottom: -14px;
 }
 
-#twitter-carousel .item {
+#workshop-carousel .item {
   padding: 0 55px;
 }
 
-#twitter-carousel .item a {
+#workshop-carousel .item a {
   color: #fff;
 }
 
-.twitter-icon h4 {
+.workshop-icon h4 {
   text-transform: uppercase;
   margin-top: 25px;
   margin-bottom: 25px;
   color: #fff;
 }
 
-.twitter-left-control,
-.twitter-right-control {
+.workshop-left-control,
+.workshop-right-control {
   position: absolute;
   top: 50%;
   color: #fff;
@@ -763,16 +763,16 @@ section {
   z-index: 15;
 }
 
-.twitter-left-control {
+.workshop-left-control {
   left: 80px;
 }
 
-.twitter-right-control {
+.workshop-right-control {
   right: 80px;
 }
 
-.twitter-left-control:hover,
-.twitter-right-control:hover {
+.workshop-left-control:hover,
+.workshop-right-control:hover {
   color: #fff;
 }
 
@@ -1005,7 +1005,7 @@ ul.address {
 #footer .social-icons ul li a.facebook:hover {
   background-color: #3b5999;
 }
-#footer .social-icons ul li a.twitter:hover {
+#footer .social-icons ul li a.workshop:hover {
   background-color: #2ac6f7;
 }
 #footer .social-icons ul li a.dribbble:hover {

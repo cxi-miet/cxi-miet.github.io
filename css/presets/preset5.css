@@ -1,6 +1,6 @@
 a,
 #home-slider .caption h1 span, 
-#twitter-carousel .item span, 
+#workshop-carousel .item span, 
 #footer .footer-bottom, 
 #single-portfolio .close-folio-item:hover, 
 .single-table.featured .btn.btn-primary, 
@@ -23,8 +23,8 @@ a:hover, a:focus {
 .progress-bar.progress-bar-primary, 
 .single-table.featured, 
 .btn.btn-primary, 
-.twitter-icon .fa-twitter, 
-.twitter-left-control:hover, .twitter-right-control:hover, 
+.workshop-icon .fa-workshop, 
+.workshop-left-control:hover, .workshop-right-control:hover, 
 .post-icon, 
 .entry-header .date:after, 
 .btn-loadmore:hover, 
@@ -37,8 +37,8 @@ a:hover, a:focus {
   background-color:#913d88;
 }
 
-.twitter-left-control:hover, 
-.twitter-right-control:hover, 
+.workshop-left-control:hover, 
+.workshop-right-control:hover, 
 .btn-loadmore:hover  {
 	border: 1px solid #913d88;
 }
@@ -49,6 +49,6 @@ a:hover, a:focus {
 	border-color: #913d88;
 }
 
-.twitter-icon .fa-twitter:after {
+.workshop-icon .fa-workshop:after {
 	border-color: #913d88 transparent transparent;
 }
