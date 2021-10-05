@@ -77,6 +77,10 @@ h3 {
   background-color: #017fb5;
 }
 
+#lg {
+  font-size: 1.8rem;
+}
+
 .navbar-nav li a:hover,
 .navbar-nav li a:focus {
   outline: none;
