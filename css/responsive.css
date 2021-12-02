@@ -120,6 +120,9 @@
 	}
 	.team-members .col-sm-3, 
 	.pricing-table .col-sm-3, 
+	#portfolio .row-1{
+		flex-direction: column;
+	  }
 	#portfolio .col-sm-3, 
 	.blog-posts .col-sm-4  {
 		width: 50%;
