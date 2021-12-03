@@ -168,7 +168,51 @@ section {
   font-weight: 700;
   margin-bottom: 30px;
 }
+/* .domains{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
 
+.domains li{
+  position: relative;
+  list-style: none;
+  text-align: left;
+  height: 80px; 
+  top: 0;
+  animation: scroll 30s steps(6) infinite; 
+}
+@keyframes scroll {
+  100% {
+    top: -480px;
+  }
+}
+.roll {
+  position: relative;
+  width: 480px;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+  border-left: 2px solid white;
+  overflow: hidden;
+  
+}
+.roll ul{
+  position: relative;
+  animation: wrap 5s steps(17) infinite;
+}
+@keyframes wrap {
+  0% {
+    right: 100%;
+  }
+  50% {
+    right: 0%;
+  }
+  100% {
+    right: 100%;
+  }
+} */
 .caption .btn-start {
   color: #fff;
   font-size: 20px;
