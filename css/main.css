@@ -6,17 +6,23 @@
   Description: Onepage Site Template
   Version: 1.0
 */
+/* background-color: #4E4E50;
+background-color: #6F2232;
+background-color: #950740;
+background-color: #C3073F; */
 
 /*************************
 *******Typography******
 **************************/
-
+*{
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 24px;
-  color: #666;
-  background-color: #fff;
+  color: rgba(255, 251, 251, 0.7);
+  background-color:black;
 }
 
 h1,
@@ -25,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #333;
+  color: #C3073F;
 }
 
 h2 {
@@ -74,7 +80,7 @@ h3 {
 }
 
 .btn.btn-primary:hover {
-  background-color: #017fb5;
+  background-color: #950740;;
 }
 
 #lg {
@@ -89,13 +95,13 @@ h3 {
   background: transparent;
 }
 
-a {
+/* a {
   text-decoration: none;
-  -webkit-transition: 300ms;
-  -moz-transition: 300ms;
-  -o-transition: 300ms;
-  transition: 300ms;
-}
+  -webkit-transition: 00ms;
+  -moz-transition: 00ms;
+  -o-transition: 00ms;
+  transition: 00ms;
+} */
 
 a:focus,
 a:hover {
@@ -162,7 +168,51 @@ section {
   font-weight: 700;
   margin-bottom: 30px;
 }
+/* .domains{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
 
+.domains li{
+  position: relative;
+  list-style: none;
+  text-align: left;
+  height: 80px; 
+  top: 0;
+  animation: scroll 30s steps(6) infinite; 
+}
+@keyframes scroll {
+  100% {
+    top: -480px;
+  }
+}
+.roll {
+  position: relative;
+  width: 480px;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+  border-left: 2px solid white;
+  overflow: hidden;
+  
+}
+.roll ul{
+  position: relative;
+  animation: wrap 5s steps(17) infinite;
+}
+@keyframes wrap {
+  0% {
+    right: 100%;
+  }
+  50% {
+    right: 0%;
+  }
+  100% {
+    right: 100%;
+  }
+} */
 .caption .btn-start {
   color: #fff;
   font-size: 20px;
@@ -301,7 +351,6 @@ section {
 /*************************
 ********Service CSS*******
 **************************/
-
 .service-icon {
   border-radius: 4px;
   color: #fff;
@@ -310,17 +359,18 @@ section {
   height: 90px;
   line-height: 90px;
   width: 90px;
-  -webkit-transition: background-color 0.2s ease;
-  transition: background-color 0.2s ease;
+  -webkit-transition:  0.2s ease;
+  transition: 0.2s ease;
 }
 
 .our-services .col-sm-4:hover .service-icon {
-  background-color: #333;
+  background-color: #950740;
+  transform: translateY(-10px);
 }
 
 .our-services .col-sm-4 {
-  border-right: 1px solid #f2f2f2;
-  border-bottom: 1px solid #f2f2f2;
+  border-right: 1px solid rgba(255, 251, 251, 0.2);
+  border-bottom: 1px solid rgba(255, 251, 251, 0.2);
   padding-bottom: 50px;
 }
 
@@ -351,6 +401,7 @@ section {
 #about-us h2 {
   margin-top: 0;
   color: #fff;
+  text-align: center;
 }
 
 #about-us .lead {
@@ -358,32 +409,11 @@ section {
   margin-bottom: 10px;
 }
 
-#about-us h1 {
-  margin-bottom: 30px;
+#about-us .row{
+  display: flex;
+  justify-content: center;
 }
 
-.progress {
-  height: 20px;
-  background-color: #fff;
-  border-radius: 0;
-  box-shadow: none;
-  -webkit-box-shadow: none;
-  margin-bottom: 25px;
-}
-
-.progress-bar {
-  box-shadow: none;
-  -webkit-box-shadow: none;
-  text-align: right;
-  padding-right: 12px;
-  font-size: 12px;
-  font-weight: 600;
-}
-
-.progress .progress-bar.six-sec-ease-in-out {
-  -webkit-transition: width 2s ease-in-out;
-  transition: width 2s ease-in-out;
-}
 
 /*************************
 ********portfolio CSS*****
@@ -413,6 +443,14 @@ section {
   transition: all 0.5s ease-in-out;
 }
 
+#portfolio .row-1{
+  display: flex;
+  justify-content: space-around;
+}
+#portfolio .row-1 img{
+  margin-bottom: 25px;
+
+}
 .overlay .overlay-content {
   display: table;
   height: 100%;
@@ -439,7 +477,7 @@ section {
 
 .folio-overview a {
   font-size: 18px;
-  color: #333;
+  color: rgba(255, 251, 251, 0.7);
   height: 50px;
   width: 50px;
   line-height: 50px;
@@ -463,6 +501,7 @@ section {
 .folio-overview .folio-expand {
   -webkit-transition: all 0.8s ease-in-out;
   transition: all 0.8s ease-in-out;
+  overflow: hidden;
 }
 
 #portfolio .folio-item:hover .folio-image {
@@ -509,10 +548,41 @@ section {
   width: 34px;
   height: 34px;
   left: 50%;
-  color: #999;
+  color: rgba(255, 251, 251, 0.7);
   margin-left: -17px;
 }
-
+/*************************
+********Workshop*********
+*************************/
+.workshop{
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../images/twitter-bg.jpg);
+  background-attachment: fixed;
+}
+.workshop-heading h1{
+  color: white;
+  padding: 50px 0;
+}
+.workshop .row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+.workshop h4{
+  color:white;
+}
+/* .work-left{
+  text-align: left; 
+  border-bottom:1px solid #950740 ;
+} */
+/* .work-right{
+  text-align: right;
+  border-left:1px solid #950740 ;
+} */
+.work-bottom{
+  border-bottom:1px solid #950740 ;
+}
 /*************************
 *********Team CSS*********
 **************************/
@@ -529,7 +599,7 @@ section {
 
 #row1 .social-icons ul li a {
   color: #fff;
-  background-color: #d9d9d9;
+  background-color: #6F2232;
   height: 34px;
   width: 34px;
   line-height: 30px;
@@ -587,7 +657,7 @@ section {
 
 .team-member {
   text-align: center;
-  color: #333;
+  color: rgba(255, 251, 251, 0.7);
   font-size: 14px;
 }
 
@@ -618,7 +688,7 @@ section {
 .member-info h4 {
   font-size: 14px;
   margin-bottom: 15px;
-  color: #999;
+  color: rgba(255, 251, 251, 0.7);
 }
 
 .carousel-cell {
@@ -831,7 +901,7 @@ section {
   top: 45%;
   width: 30px;
   text-align: center;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 251, 251, 0.7);
   font-size: 36px;
 }
 
@@ -883,7 +953,7 @@ section {
 
 .btn-loadmore {
   border: 1px solid #f2f2f2;
-  color: #666666;
+  color: rgba(255, 251, 251, 0.7);
   font-size: 14px;
   font-weight: 600;
   padding: 15px 125px;
@@ -974,7 +1044,7 @@ ul.address {
 }
 
 #footer .footer-bottom {
-  background-color: #fff;
+  background-color: black;
   padding: 20px 0 10px;
 }
 
