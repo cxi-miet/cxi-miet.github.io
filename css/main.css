@@ -14,7 +14,9 @@ background-color: #C3073F; */
 /*************************
 *******Typography******
 **************************/
-
+*{
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -305,7 +307,6 @@ section {
 /*************************
 ********Service CSS*******
 **************************/
-
 .service-icon {
   border-radius: 4px;
   color: #fff;
@@ -314,12 +315,13 @@ section {
   height: 90px;
   line-height: 90px;
   width: 90px;
-  -webkit-transition: background-color 0.2s ease;
-  transition: background-color 0.2s ease;
+  -webkit-transition:  0.2s ease;
+  transition: 0.2s ease;
 }
 
 .our-services .col-sm-4:hover .service-icon {
   background-color: #950740;
+  transform: translateY(-10px);
 }
 
 .our-services .col-sm-4 {
@@ -521,25 +523,21 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 15px;
 }
 .workshop h4{
   color:white;
 }
-.work-left,
-.work-right{
-  
-}
-.work-left{
-  text-align: left;
-  /* border-bottom:1px solid #950740 ; */
-}
-.work-right{
+/* .work-left{
+  text-align: left; 
+  border-bottom:1px solid #950740 ;
+} */
+/* .work-right{
   text-align: right;
   border-left:1px solid #950740 ;
-}
+} */
 .work-bottom{
-  border-top:1px solid #950740 ;
-  margin: 15px;
+  border-bottom:1px solid #950740 ;
 }
 /*************************
 *********Team CSS*********
