@@ -95,13 +95,13 @@ h3 {
   background: transparent;
 }
 
-a {
+/* a {
   text-decoration: none;
-  -webkit-transition: 300ms;
-  -moz-transition: 300ms;
-  -o-transition: 300ms;
-  transition: 300ms;
-}
+  -webkit-transition: 00ms;
+  -moz-transition: 00ms;
+  -o-transition: 00ms;
+  transition: 00ms;
+} */
 
 a:focus,
 a:hover {
