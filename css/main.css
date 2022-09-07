@@ -42,7 +42,11 @@ h2 {
 h3 {
   font-size: 18px;
 }
-
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .parallax {
   background-size: cover;
   background-repeat: no-repeat;
@@ -419,6 +423,60 @@ section {
 ********portfolio CSS*****
 **************************/
 
+/* overlay start */
+#overlaya {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background: #999;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  z-index: 9999;
+}
+
+#popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background: #fff;
+  width: 90%;
+  height:80%;
+  z-index: 10000;
+  border-radius: 20px;
+  box-shadow: 2px 2px 40px black;
+}
+
+.popupclose{
+  position: absolute;
+  top:-5%;
+  right: -3%;
+  font-size: 4rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  z-index: 10001;
+  text-shadow: 2px 2px 40px black;;
+}
+
+.popupcontent {
+  padding: 10px;
+  text-align: center;
+}
+.popupcontent p{
+  margin-top: 3rem;
+  color: black;
+}
+
+#button {
+  cursor: pointer;
+
+}
+/* overlay over */
+
 #portfolio .container-fluid,
 #portfolio .col-sm-3 {
   overflow: hidden;
@@ -473,6 +531,11 @@ section {
 .overlay .folio-info h3 {
   margin-top: 0;
   color: #fff;
+}
+
+.overlay .folio-info span{
+  font-size: 3rem;
+  cursor: pointer;
 }
 
 .folio-overview a {
@@ -556,8 +619,10 @@ section {
 *************************/
 .workshop{
   text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../images/twitter-bg.jpg);
-  background-attachment: fixed;
+  position: absolute;
+  width: 100%;
+  right: 0;
+  transition: .6s all ease;
 }
 .workshop-heading h1{
   color: white;
@@ -572,16 +637,35 @@ section {
 .workshop h4{
   color:white;
 }
-/* .work-left{
-  text-align: left; 
-  border-bottom:1px solid #950740 ;
-} */
-/* .work-right{
-  text-align: right;
-  border-left:1px solid #950740 ;
-} */
 .work-bottom{
   border-bottom:1px solid #950740 ;
+}
+/* workshop scroller  */
+.scroller{
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../images/twitter-bg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.second_workshop{
+  right: -100vw;
+}
+.workshop_left,
+.workshop_right{
+  position: absolute;
+  font-size: 5rem;
+  text-shadow: 1px 1px 10px grey;
+  cursor: pointer;
+  z-index: 10;
+}
+.workshop_left{
+  left: 10px;
+}
+.workshop_right{
+  right: 10px;
 }
 /*************************
 *********Team CSS*********
