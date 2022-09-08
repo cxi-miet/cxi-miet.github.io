@@ -29,6 +29,9 @@
 	.btn-signup {
 		padding: 10px 20px;
 	}
+	.scroller{
+		height: 120vh;
+	}
 	.workshop .row{
 		flex-direction: column;
 	}
@@ -178,6 +181,9 @@
 		margin-bottom: 40px;
 		padding: 20px;
 	}
+	.scroller{
+		height: 140vh;
+	}
 	.workshop .row{
 		flex-direction: column;
 	}
@@ -244,6 +250,9 @@
 	.blog-posts .col-sm-4 {
 		width:100%;
 		float: none;
+	}
+	.scroller{
+		height: 200vh;
 	}
 }
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,7 @@
   <meta name="author" content="">
   <title>CXI - Collaboration x Innovation</title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/animate.min.css" rel="stylesheet"> 
+  <link href="css/animate.min.css" rel="stylesheet">
   <link href="css/font-awesome.min.css" rel="stylesheet">
   <link href="css/lightbox.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
@@ -19,10 +20,11 @@
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
   <![endif]-->
-  
+
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
   <link rel="shortcut icon" href="images/favicon.ico">
-</head><!--/head-->
+</head>
+<!--/head-->
 
 <body>
 
@@ -30,14 +32,35 @@
   <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
   <!--/.preloader-->
 
+  <!-- overlay -->
+  <div id="overlaya"></div>
+  <div id="popup">
+    <div class="popupcontrols">
+      <span id="popupclose" class="popupclose">X</span>
+    </div>
+   <div class="popupcon">
+    
+    <div class="popupcontent">
+      <h1>Project</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, rerum ipsa, porro impedit quaerat ex ea
+        itaque totam a fugit nesciunt quibusdam tempore.</p>
+        <h2>Photos</h2>
+       <div class="center">
+        <img src="./images/portfolio/carbon_footprints.jpeg" width="100%" alt="">
+       </div>
+    </div>
+   </div>
+  </div>
+  <!-- overlay over -->
+
   <header id="home">
     <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
       <div class="carousel-inner">
         <div class="item active" style="background-image: url(images/slider/1.jpg)">
           <div class="caption">
             <h1 class="animated fadeInLeftBig">Welcome to <span>CXI</span></h1>
-          <p class="animated fadeInRightBig">Computer Science Club of MIET</p>
-          <!-- <div class="domains">
+            <p class="animated fadeInRightBig">Computer Science Club of MIET</p>
+            <!-- <div class="domains">
             <h2 style="color: white;">our domains:</h2>
           <div class="roll">
             <ul><h2>
@@ -50,15 +73,16 @@
             </ul>
           </div>
           </div> -->
-          
-          
+
+
           </div>
         </div>
       </div>
-      <a  href="#services"><i class="fa fa-angle-down"></i></a>
-      
+      <a href="#services"><i class="fa fa-angle-down"></i></a>
 
-    </div><!--/#home-slider-->
+
+    </div>
+    <!--/#home-slider-->
     <div class="main-nav">
       <div class="container">
         <div class="navbar-header">
@@ -70,25 +94,28 @@
           </button>
           <a class="navbar-brand" href="#services">
             <h1>CXI</h1>
-          </a>                    
+          </a>
         </div>
         <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">                 
+          <ul class="nav navbar-nav navbar-right">
             <li class="scroll active"><a href="#home">Home</a></li>
-            <li class="scroll"><a href="#services">Service</a></li> 
-            <li class="scroll"><a href="#about-us">About Us</a></li>                     
+            <li class="scroll"><a href="#services">Service</a></li>
+            <li class="scroll"><a href="#about-us">About Us</a></li>
             <li class="scroll"><a href="#portfolio">Portfolio</a></li>
             <li class="scroll"><a href="#workshop">Workshop</a></li>
             <li class="scroll"><a href="#team">Team</a></li>
-            <li class="scroll"><a href="#contact">Contact</a></li>       
+            <li class="scroll"><a href="#contact">Contact</a></li>
             <li class="nav-item">
-              <a class="nav-link" href="https://cxi-miet.github.io/constitution/" target="_blank">Club Constitution</a></li>
-                
+              <a class="nav-link" href="https://cxi-miet.github.io/constitution/" target="_blank">Club Constitution</a>
+            </li>
+
           </ul>
         </div>
       </div>
-    </div><!--/#main-nav-->
-  </header><!--/#home-->
+    </div>
+    <!--/#main-nav-->
+  </header>
+  <!--/#home-->
 
 
   <section id="services">
@@ -96,10 +123,10 @@
       <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
         <div class="row">
           <div class="text-center col-sm-8 col-sm-offset-2">
-      <h2>What we do?</h2>
-        <p>COLLABORATION x INNOVATION. Precisely.</p>
+            <h2>What we do?</h2>
+            <p>COLLABORATION x INNOVATION. Precisely.</p>
           </div>
-        </div> 
+        </div>
       </div>
       <div class="text-center our-services">
         <div class="row">
@@ -108,8 +135,9 @@
               <i class="fa fa-flask"></i>
             </div>
             <div class="service-info">
-            <h3>Professional Identity</h3>
-          <p>Create your own professional identity with us. Change the way how you and others see you in a professional &nbsp;&nbsp;&nbsp; career.</p>
+              <h3>Professional Identity</h3>
+              <p>Create your own professional identity with us. Change the way how you and others see you in a
+                professional &nbsp;&nbsp;&nbsp; career.</p>
             </div>
           </div>
           <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
@@ -118,7 +146,8 @@
             </div>
             <div class="service-info">
               <h3>Creative Idea</h3>
-<p>Turn your new and imaginative ideas into reality. Bring something new into being and have the courage to create.</p>
+              <p>Turn your new and imaginative ideas into reality. Bring something new into being and have the courage
+                to create.</p>
             </div>
           </div>
           <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
@@ -127,7 +156,8 @@
             </div>
             <div class="service-info">
               <h3>Awesome Support</h3>
-              <p>Collaborate and Innovate with us and get awesome support of dedicated mentors. Learn and grow under leadership of these mentors.</p>
+              <p>Collaborate and Innovate with us and get awesome support of dedicated mentors. Learn and grow under
+                leadership of these mentors.</p>
             </div>
           </div>
           <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms">
@@ -136,7 +166,8 @@
             </div>
             <div class="service-info">
               <h3> Design Professional </h3>
-              <p> Be the professional to design a remedy. Provide your design or engineering services to the project.</p>
+              <p> Be the professional to design a remedy. Provide your design or engineering services to the project.
+              </p>
             </div>
           </div>
           <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="750ms">
@@ -145,7 +176,8 @@
             </div>
             <div class="service-info">
               <h3>App Development</h3>
-              <p>Develope interesting and innovative apps. Enhance your development skill along with us by creating real world projects.</p>
+              <p>Develope interesting and innovative apps. Enhance your development skill along with us by creating real
+                world projects.</p>
             </div>
           </div>
           <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="850ms">
@@ -154,13 +186,15 @@
             </div>
             <div class="service-info">
               <h3>Clean Code</h3>
-              <p>Get a readable codebase which is easy to understand.Add new features to our proper extendable codebase and solve your problems.</p>
+              <p>Get a readable codebase which is easy to understand.Add new features to our proper extendable codebase
+                and solve your problems.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section><!--/#services-->
+  </section>
+  <!--/#services-->
 
 
   <section id="about-us" class="parallax">
@@ -169,63 +203,166 @@
         <div class="col-sm-8 ">
           <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
             <h2>About us</h2>
-            <p>The purpose of CXI is to promote and Organize project skills and experience at MIET. The club aims to bring in collaboration from the students so as to build products Or provide services that solve a common problem or give shape to an innovative idea while working in teams and learning with experience.</p>
-            <p>We are CXI.The pragmatic and progressive Computer Science Club of MIET. We bring a more sophisticated approach to student centered college bodies along with transparency in governance.
+            <p>The purpose of CXI is to promote and Organize project skills and experience at MIET. The club aims to
+              bring in collaboration from the students so as to build products Or provide services that solve a common
+              problem or give shape to an innovative idea while working in teams and learning with experience.</p>
+            <p>We are CXI.The pragmatic and progressive Computer Science Club of MIET. We bring a more sophisticated
+              approach to student centered college bodies along with transparency in governance.
             </p>
           </div>
         </div>
       </div>
     </div>
-  </section><!--/#about-us-->
+  </section>
+  <!--/#about-us-->
 
 
   <section id="portfolio">
     <div class="container">
       <div class="row ">
-        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms"
+          data-wow-delay="300ms">
           <h2>Our Portfolio</h2>
-          <p>We are currently working on these projects. We have more ideas as well! Join our team to be a part of these projects & also to give your valuable ideas for the projects.</p>
+          <p>We are currently working on these projects. We have more ideas as well! Join our team to be a part of these
+            projects & also to give your valuable ideas for the projects.</p>
         </div>
-      </div> 
+      </div>
     </div>
     <div class="container-fluid">
       <div class="row">
-      <div class="row-1">
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/1.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Pothole Detection</h3>
-                    <p>Service</p>
-                  </div>
-                  <div class="folio-overview">
-<!--                     <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span> -->
-                    <!-- <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span> -->
+
+        <div class="row-1 center ">
+          <div class="col-sm-3">
+            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <div class="folio-image">
+                <img class="img-responsive" src="images/portfolio/smartveh.jpg" alt="">
+              </div>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="overlay-text">
+                    <div class="folio-info">
+                      <h3>Smart Vehicle</h3>
+                      <p>Smart vehicles<br> </p>
+                    </div>
+                    <div class="folio-overview">
+                      <!--                     <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span> -->
+                      <!-- <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span> -->
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/2.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Newspaper Advertisement</h3>
-                    <p>Career</p>
+
+          <div class="col-sm-3">
+            <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
+              <div class="folio-image">
+                <img class="img-responsive" src="images/portfolio/carbofoot.jpg" alt="">
+              </div>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="overlay-text">
+                    <div class="folio-info">
+                      <!-- <h3>Newspaper Advertisement</h3>
+                      <p>Career</p> -->
+                      <h3>Identification in reduction of carbon footprint emission</h3>
+                      <p>Tech Stack :- Reactjs , Python , ML , AWS <br><span onclick="show_card('carbon_reduction')"
+                          title="read">📖</span></p>
+                    </div>
+                    <div class="folio-overview">
+                      <!-- <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
+                      <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span> -->
+                    </div>
                   </div>
-                  <div class="folio-overview">
-                    <!-- <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
+              <div class="folio-image">
+                <img class="img-responsive" src="images/portfolio/garbage collection.jpg" alt="">
+              </div>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="overlay-text">
+                    <div class="folio-info">
+                      <!-- <h3>Telegram Bot for Grocery Shops</h3>
+                      <p>Service</p> -->
+                      <h3>Garbage collection</h3>
+                      <p>Tech Stack :- React , Nodejs , MongoDB <br><span onclick="show_card('garbage_collection')"
+                          title="read">📖</span></p>
+                    </div>
+                    <div class="folio-overview">
+                      <!--                     <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span> -->
+                      <!-- <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="600ms">
+              <div class="folio-image" style="height: 200%;">
+                <img class="img-responsive" src="images/portfolio/nailbrain.png" alt="" id="imgport">
+              </div>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="overlay-text">
+                    <div class="folio-info">
+                      <h3>Nail The Brain</h3>
+                      <p>Tech Stack :- Reactjs , Nodejs , MongoDB<br> <span onclick="show_card('Nail_brain')"
+                          title="read">📖</span></p>
+                      </p>
+                    </div>
+                    <div class="folio-overview">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row-1 center">
+          <div class="col-sm-3">
+            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <div class="folio-image">
+                <img class="img-responsive" src="images/portfolio/1.jpg" alt="">
+              </div>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="overlay-text">
+                    <div class="folio-info">
+                      <h3>Pothole Detection</h3>
+                      <p>Service</p>
+                    </div>
+                    <div class="folio-overview">
+                      <!--                     <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span> -->
+                      <!-- <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
+              <div class="folio-image">
+                <img class="img-responsive" src="images/portfolio/2.jpg" alt="">
+              </div>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="overlay-text">
+                    <div class="folio-info">
+                      <h3>Newspaper Advertisement</h3>
+                      <p>Career</p>
+                    </div>
+                    <div class="folio-overview">
+                      <!-- <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
                       <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span> -->
                     </div>
                   </div>
@@ -254,7 +391,7 @@
               </div>
             </div>
           </div>
-          
+
           <div class="col-sm-3">
             <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="600ms">
               <div class="folio-image">
@@ -276,107 +413,108 @@
               </div>
             </div>
           </div>
-          
-        </div>
-        <div class="row-1">
-          <div class="col-sm-3">
-          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/5.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Online Assesment</h3>
-                    <p>Design, Photography</p>
-                  </div>
-                  <div class="folio-overview">
-<!--                     <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span> -->
-                    <!-- <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span> -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="800ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/6.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Virtual Labs</h3>
-                    <p>Design, Photography</p>
-                  </div>
-                  <div class="folio-overview">
-<!--                     <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span> -->
-                    <!-- <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span> -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="900ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/7.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Ripple Tea</h3>
-                    <p>Design, Photography</p>
-                  </div>
-                  <div class="folio-overview">
-                    <!--                     <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span> -->
-                    <!-- <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span> -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="1000ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/8.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Avon Trophies</h3>
-                    <p>Design, Photography</p>
-                  </div>
-                  <div class="folio-overview">
-                    <!--                     <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span> -->
-                    <!-- <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span> -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div id="portfolio-single-wrap">
-      <div id="portfolio-single">
+        </div>
+        <div class="row-1 center">
+          <div class="col-sm-3">
+            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
+              <div class="folio-image">
+                <img class="img-responsive" src="images/portfolio/5.jpg" alt="">
+              </div>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="overlay-text">
+                    <div class="folio-info">
+                      <h3>Online Assesment</h3>
+                      <p>Design, Photography</p>
+                    </div>
+                    <div class="folio-overview">
+                      <!--                     <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span> -->
+                      <!-- <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="800ms">
+              <div class="folio-image">
+                <img class="img-responsive" src="images/portfolio/6.jpg" alt="">
+              </div>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="overlay-text">
+                    <div class="folio-info">
+                      <h3>Virtual Labs</h3>
+                      <p>Design, Photography</p>
+                    </div>
+                    <div class="folio-overview">
+                      <!--                     <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span> -->
+                      <!-- <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="900ms">
+              <div class="folio-image">
+                <img class="img-responsive" src="images/portfolio/7.jpg" alt="">
+              </div>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="overlay-text">
+                    <div class="folio-info">
+                      <h3>Ripple Tea</h3>
+                      <p>Design, Photography</p>
+                    </div>
+                    <div class="folio-overview">
+                      <!--                     <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span> -->
+                      <!-- <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="1000ms">
+              <div class="folio-image">
+                <img class="img-responsive" src="images/portfolio/8.jpg" alt="">
+              </div>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="overlay-text">
+                    <div class="folio-info">
+                      <h3>Avon Trophies</h3>
+                      <p>Design, Photography</p>
+                    </div>
+                    <div class="folio-overview">
+                      <!--                     <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span> -->
+                      <!-- <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div><!-- /#portfolio-single-wrap -->
-  </section><!--/#portfolio-->
+
+      <div id="portfolio-single-wrap">
+        <div id="portfolio-single">
+        </div>
+      </div><!-- /#portfolio-single-wrap -->
+  </section>
+  <!--/#portfolio-->
 
   <!-- <section id="twitter" class="parallax">
     <div> -->
-      <!-- <a class="twitter-left-control" href="#twitter-carousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+  <!-- <a class="twitter-left-control" href="#twitter-carousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
       <a class="twitter-right-control" href="#twitter-carousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a> -->
-      <!-- <div class="container">
+  <!-- <div class="container">
         <div class="row">
           <div class="col-md-10 col-sm-offset-1">
             <div class="twitter-icon text-center">
@@ -412,8 +550,8 @@
                     <h4>Project We Will Be Building</h4>
                     <p>The Railway Bus Management System is a real-time tracking system that aims to facilitate the railways’ passengers to transport them from distributed locations throughout the city/region to their respective railway stations conveniently and within time. Further this model shall reduce overcrowding at stations and passenger traffic on roads.</p>
                     <p>The system takes train's arrival information and passengers’ location as input. It analyses the information and provides the passengers an interactive list and routes of appropriate buses available near them with their appropriate timings which can drop them directly at their station within time. An Admin module controls all the predefined factors like management of buses, routes, timings, conductors, logins; handling availability of buses etc.</p>
-                </div> --> 
-                <!-- <div class="item">
+                </div> -->
+  <!-- <div class="item">
                   <h4>Tools and Technologies Involved!</h4>
                   <p>Throughout the workshop you will be working with following tools and Technologies:
                     <br>
@@ -427,12 +565,12 @@
                     <br>AWS Account (optional)
                   </p>
                 </div> -->
-                <!-- <div class="item">                            
+  <!-- <div class="item">                            
                   <h4>Project We Will Be Building</h4>
                   <p>The Railway Bus Management System is a real-time tracking system that aims to facilitate the railways’ passengers to transport them from distributed locations throughout the city/region to their respective railway stations conveniently and within time. Further this model shall reduce overcrowding at stations and passenger traffic on roads.</p>
                   <p>The system takes train's arrival information and passengers’ location as input. It analyses the information and provides the passengers an interactive list and routes of appropriate buses available near them with their appropriate timings which can drop them directly at their station within time. An Admin module controls all the predefined factors like management of buses, routes, timings, conductors, logins; handling availability of buses etc.</p>
                 </div> -->
-                <!-- <div class="item">                            
+  <!-- <div class="item">                            
                   <h4>What Else We Got!</h4>
                   <p>Benefits of registration : 
                     <br><i class="fa fa-exchange"></i> One to one assistance
@@ -443,7 +581,7 @@
                     <br><i class="fa fa-file-text"></i> Participation Certificate
                   </p>
                 </div> -->
-              <!-- </div>                        
+  <!-- </div>                        
             </div>                    
           </div>
         </div>
@@ -453,49 +591,98 @@
  -->
 
 
+  <!-- workshop -->
+  <section class="scroller center">
+    <div class="workshop_left" title="Turn Left">⋘</div>
+    <div class="workshop_right" title="Turn Right">⋙</div>
+    <div class="workshop first_workshop" id="workshop">
+      <div class="workshop-heading text-center">
+        <h1>CSS BattleGround (Competetion) </h1>
+      </div>
+      <div class="container">
+        <div class="row " style="flex-direction: column;">
+          <div class="row">
+            <div class="col-md-10 work-bottom">
+              <h4>About</h4>
+              <p>CSS BattleGround is an online CSS code golfing game...
+                <br>
+                CSS BattleGround is one of its kind game for frontend developers.
+                <br>
+                The objective of the game is to write CSS to replicate the given target image in the least code possible
+                in the given time allotted.
+              </p>
+              <br>
+              <p><b>PRICE</b> <br>
+                There were 3 position</p>
+              <p>🥇 Ist position got ₹1500 cash price
+                <br> 🥈 IInd position got ₹1000 cash price
+                <br> 🥉 IIIrd position got ₹500 cash price
+                <br> 🎫 100% Certification
+              </p>
+              <p> Total participants: 110</p>
 
-<section>
-  <div class="workshop" id="workshop">
-    <div class="workshop-heading text-center">
-      <h1>Web Development Workshop</h1>
-    </div>
-    <div class="container">
-      <div class="row " style="flex-direction: column;">
-        <div class="row">
-          <!-- <div class="col-md-5 work-left">
-            <h4><u>What To Expect From The Event!</u></h4>
-                  <p>Are you ready to get your hands dirty with various Web Development tools and technologies? 
-                    <br><br>You will be provided with an overwiew of various tools and technologies including Java Servlets, AWS hosting and much more. We are going to build a project on "Railway Bus Managemnt System" in two days with 4 sessions.</p>
-                  <p><i class="fa fa-calendar"></i> Date: 29th - 30th of May, 2021</p>
-          </div> -->
-          <div class="col-md-10 work-bottom">
-            <h4>Project We Built</h4>
-                    <p>The Railway Bus Management System is a real-time tracking system that aims to facilitate the railways’ passengers to transport them from distributed locations throughout the city/region to their respective railway stations conveniently and within time. Further this model shall reduce overcrowding at stations and passenger traffic on roads.</p>
-                    <p>The system takes train's arrival information and passengers’ location as input. It analyses the information and provides the passengers an interactive list and routes of appropriate buses available near them with their appropriate timings which can drop them directly at their station within time. An Admin module controls all the predefined factors like management of buses, routes, timings, conductors, logins; handling availability of buses etc.</p>
-                    <p>The workshop was accomplished successfully with 20 participants, 8 mentors and 3 instructor</p>
+
+            </div>
           </div>
-        </div>
-        <div class="col-md-10 work-right">
-          <h4 >Tools and Technologies Involved!</h4>
-          <p>Throughout the workshop we used following tools and Technologies:
-            <br>
-            <br>Frontend: HTML, CSS, JavaScript, ReactJs, jQuery 
-            <br>Framework: Bootstrap, ReactJs
-            <br>Backend: JAVA Servlets, MySQL 
-            <br>Deployment: AWS Cloud
-          </p>
+          <div class="col-md-10 work-right">
+            <h4>Tools and Technologies Used!</h4>
+            <p>
+              HTML, CSS, CSS(Preprocessor)
+            </p>
+            
+            <div>
+             <div class="center" style="justify-content: space-evenly;">
+              <a href="https://cxi-miet.github.io/cssbattleground/"><button class="btn-submit">More Info.</button></a>
+              <a><button class="btn-submit" onclick="show_card('cssbattleground')">Photos</button></a>
+             </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+    <div class="workshop second_workshop" id="workshop">
+      <div class="workshop-heading text-center">
+        <h1>Web Development Workshop</h1>
+      </div>
+      <div class="container">
+        <div class="row " style="flex-direction: column;">
+          <div class="row">
+            <div class="col-md-10 work-bottom">
+              <h4>Project We Built</h4>
+              <p>The Railway Bus Management System is a real-time tracking system that aims to facilitate the railways’
+                passengers to transport them from distributed locations throughout the city/region to their respective
+                railway stations conveniently and within time. Further this model shall reduce overcrowding at stations
+                and passenger traffic on roads.</p>
+              <p>The system takes train's arrival information and passengers’ location as input. It analyses the
+                information and provides the passengers an interactive list and routes of appropriate buses available
+                near them with their appropriate timings which can drop them directly at their station within time. An
+                Admin module controls all the predefined factors like management of buses, routes, timings, conductors,
+                logins; handling availability of buses etc.</p>
+              <p>The workshop was accomplished successfully with 20 participants, 8 mentors and 3 instructor</p>
+            </div>
+          </div>
+          <div class="col-md-10 work-right">
+            <h4>Tools and Technologies Involved!</h4>
+            <p>Throughout the workshop we used following tools and Technologies:
+              <br>
+              <br>Frontend: HTML, CSS, JavaScript, ReactJs, jQuery
+              <br>Framework: Bootstrap, ReactJs
+              <br>Backend: JAVA Servlets, MySQL
+              <br>Deployment: AWS Cloud
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
   <section id="team">
     <div class="container">
-      <div class="row" >
-        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
-            <h2>The Officers</h2>
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms"
+          data-wow-delay="300ms">
+          <h2>The Officers</h2>
           <p>We at CXI believe in coming and working together to provide services to the world!</p>
         </div>
       </div>
@@ -511,15 +698,18 @@
                   <div class="member-info">
                     <h3>Umar Alam</h3>
                     <h4>Founder</h4>
-     
+
                   </div>
                   <div class="social-icons">
                     <ul>
-                      <li><a class="facebook" href="https://www.facebook.com/umar.alam.712"><i class="fa fa-facebook"></i></a></li>
-                  
-                      <li><a class="linkedin" href="https://www.linkedin.com/in/mohdumaralam/"><i class="fa fa-linkedin"></i></a></li>
-                     
-                      <li><a class="instagram" href="https://www.instagram.com/umar.alam.Siddiqui"><i class="fa fa-instagram"></i></a></li>
+                      <li><a class="facebook" href="https://www.facebook.com/umar.alam.712"><i
+                            class="fa fa-facebook"></i></a></li>
+
+                      <li><a class="linkedin" href="https://www.linkedin.com/in/mohdumaralam/"><i
+                            class="fa fa-linkedin"></i></a></li>
+
+                      <li><a class="instagram" href="https://www.instagram.com/umar.alam.Siddiqui"><i
+                            class="fa fa-instagram"></i></a></li>
                     </ul>
                   </div>
                 </div>
@@ -532,15 +722,18 @@
                   <div class="member-info">
                     <h3>Parv Agarwal</h3>
                     <h4>Founder</h4>
-                
+
                   </div>
                   <div class="social-icons">
                     <ul>
-                      <li><a class="facebook" href="https://www.facebook.com/parv.agarwal.33"><i class="fa fa-facebook"></i></a></li>
-                      
-                      <li><a class="linkedin" href="https://www.linkedin.com/in/parv-agarwal-a23850176/"><i class="fa fa-linkedin"></i></a></li>
-                      <li><a class="instagram" href="https://www.instagram.com/parvagarwal189"><i class="fa fa-instagram"></i></a></li>
-    
+                      <li><a class="facebook" href="https://www.facebook.com/parv.agarwal.33"><i
+                            class="fa fa-facebook"></i></a></li>
+
+                      <li><a class="linkedin" href="https://www.linkedin.com/in/parv-agarwal-a23850176/"><i
+                            class="fa fa-linkedin"></i></a></li>
+                      <li><a class="instagram" href="https://www.instagram.com/parvagarwal189"><i
+                            class="fa fa-instagram"></i></a></li>
+
                     </ul>
                   </div>
                 </div>
@@ -553,15 +746,18 @@
                   <div class="member-info">
                     <h3>Aditi Pundir</h3>
                     <h4>President</h4>
-                
+
                   </div>
                   <div class="social-icons">
                     <ul>
-                      <li><a class="facebook" href="https://www.facebook.com/aditi.pundir.14"><i class="fa fa-facebook"></i></a></li>
-                      
-                      <li><a class="linkedin" href="https://www.linkedin.com/in/aditi-pundir-0387621a6"><i class="fa fa-linkedin"></i></a></li>
-                      <li><a class="instagram" href="https://instagram.com/adi_ti_pundir?utm_medium=copy_link"><i class="fa fa-instagram"></i></a></li>
-    
+                      <li><a class="facebook" href="https://www.facebook.com/aditi.pundir.14"><i
+                            class="fa fa-facebook"></i></a></li>
+
+                      <li><a class="linkedin" href="https://www.linkedin.com/in/aditi-pundir-0387621a6"><i
+                            class="fa fa-linkedin"></i></a></li>
+                      <li><a class="instagram" href="https://instagram.com/adi_ti_pundir?utm_medium=copy_link"><i
+                            class="fa fa-instagram"></i></a></li>
+
                     </ul>
                   </div>
                 </div>
@@ -574,21 +770,24 @@
                   <div class="member-info">
                     <h3>Swapnil Sharma</h3>
                     <h4>Vice President</h4>
-                
+
                   </div>
                   <div class="social-icons">
                     <ul>
-                      <li><a class="facebook" href="https://www.facebook.com/profile.php?id=100036173085117"><i class="fa fa-facebook"></i></a></li>
-                      
-                      <li><a class="linkedin" href="https://www.linkedin.com/in/swapnil-sharma-a99ba3189"><i class="fa fa-linkedin"></i></a></li>
-                      <li><a class="instagram" href="https://www.instagram.com/swapnil_sharma_11/"><i class="fa fa-instagram"></i></a></li>
-    
+                      <li><a class="facebook" href="https://www.facebook.com/profile.php?id=100036173085117"><i
+                            class="fa fa-facebook"></i></a></li>
+
+                      <li><a class="linkedin" href="https://www.linkedin.com/in/swapnil-sharma-a99ba3189"><i
+                            class="fa fa-linkedin"></i></a></li>
+                      <li><a class="instagram" href="https://www.instagram.com/swapnil_sharma_11/"><i
+                            class="fa fa-instagram"></i></a></li>
+
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="carousel-cell"> 
+            <div class="carousel-cell">
               <div class="col-sm-3">
                 <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
                   <div class="member-image">
@@ -597,13 +796,16 @@
                   <div class="member-info">
                     <h3>Kunal Sharma</h3>
                     <h4>Secretary</h4>
-                   
+
                   </div>
-                  <div class="social-icons"> 
+                  <div class="social-icons">
                     <ul>
-                      <li><a class="facebook" href="https://www.facebook.com/kunalsharma046"><i class="fa fa-facebook"></i></a></li>
-                      <li><a class="linkedin" href="https://www.linkedin.com/in/kunal-sharma-253b23201"><i class="fa fa-linkedin"></i></a></li>
-                      <li><a class="instagram" href="https://instagram.com/sharma_kunall?utm_medium=copy_link"><i class="fa fa-instagram"></i></a></li>
+                      <li><a class="facebook" href="https://www.facebook.com/kunalsharma046"><i
+                            class="fa fa-facebook"></i></a></li>
+                      <li><a class="linkedin" href="https://www.linkedin.com/in/kunal-sharma-253b23201"><i
+                            class="fa fa-linkedin"></i></a></li>
+                      <li><a class="instagram" href="https://instagram.com/sharma_kunall?utm_medium=copy_link"><i
+                            class="fa fa-instagram"></i></a></li>
                     </ul>
                   </div>
                 </div>
@@ -616,15 +818,17 @@
                   <div class="member-info">
                     <h3>Akanksha Baghel</h3>
                     <h4>Events Manager</h4>
-     
+
                   </div>
                   <div class="social-icons">
                     <ul>
                       <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                  
-                      <li><a class="linkedin" href="https://www.linkedin.com/in/akanksha-baghel-049837227"><i class="fa fa-linkedin"></i></a></li>
-                     
-                      <li><a class="instagram" href="https://www.instagram.com/akankshabaghel79/"><i class="fa fa-instagram"></i></a></li>
+
+                      <li><a class="linkedin" href="https://www.linkedin.com/in/akanksha-baghel-049837227"><i
+                            class="fa fa-linkedin"></i></a></li>
+
+                      <li><a class="instagram" href="https://www.instagram.com/akankshabaghel79/"><i
+                            class="fa fa-instagram"></i></a></li>
                     </ul>
                   </div>
                 </div>
@@ -637,22 +841,25 @@
                   <div class="member-info">
                     <h3>Nishita Sharma </h3>
                     <h4>Peoples Executive</h4>
-     
+
                   </div>
                   <div class="social-icons">
                     <ul>
                       <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                  
-                      <li><a class="linkedin" href="https://www.linkedin.com/in/nishita-sharma-074020202"><i class="fa fa-linkedin"></i></a></li>
-                     
-                      <li><a class="instagram" href="https://www.instagram.com/nishitaa70/"><i class="fa fa-instagram"></i></a></li>
+
+                      <li><a class="linkedin" href="https://www.linkedin.com/in/nishita-sharma-074020202"><i
+                            class="fa fa-linkedin"></i></a></li>
+
+                      <li><a class="instagram" href="https://www.instagram.com/nishitaa70/"><i
+                            class="fa fa-instagram"></i></a></li>
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
-    </div>
-  </section><!--/#team-->
+          </div>
+  </section>
+  <!--/#team-->
 
 
   <section id="features" class="parallax">
@@ -665,22 +872,23 @@
         </div>
         <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
           <i class="fa fa-desktop"></i>
-          <h3 class="timer">9</h3>                    
+          <h3 class="timer">9</h3>
           <p>Projects</p>
-        </div> 
+        </div>
         <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
           <i class="fa fa-trophy"></i>
-          <h3 class="timer">34</h3>                    
+          <h3 class="timer">34</h3>
           <p>Hard Workers</p>
-        </div> 
+        </div>
         <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="900ms">
-          <i class="fa fa-comment-o"></i>                    
+          <i class="fa fa-comment-o"></i>
           <h3>24/7</h3>
           <p>Fast Support</p>
-        </div>                 
+        </div>
       </div>
     </div>
-  </section><!--/#features-->
+  </section>
+  <!--/#features-->
 
 
   <!-- <section id="twitter" class="parallax">
@@ -712,7 +920,7 @@
       </div>
     </div>
   </section>/#twitter -->
- <!--  <section id="blog">
+  <!--  <section id="blog">
     <div class="container">
       <div class="row">
         <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
@@ -811,11 +1019,14 @@
 
 
   <section id="contact">
-   <iframe id='google-map' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d155681.38505781218!2d77.58915203172987!3d29.01955312834379!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8795def814a486e7!2sMIET+College!5e0!3m2!1sen!2sin!4v1565274919285!5m2!1sen!2sin" width="100%"  frameborder="0" style="border:0" allowfullscreen></iframe>
+    <iframe id='google-map'
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d155681.38505781218!2d77.58915203172987!3d29.01955312834379!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8795def814a486e7!2sMIET+College!5e0!3m2!1sen!2sin!4v1565274919285!5m2!1sen!2sin"
+      width="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
     <div id="contact-us" class="parallax">
       <div class="container">
         <div class="row">
-          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms"
+            data-wow-delay="300ms">
             <h2>Contact Us</h2>
             <p>Inquiries? Feedback? Need some help?</p>
             <p>Get in touch with us!!</p>
@@ -828,41 +1039,47 @@
                 <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
                   <div class="col-sm-6">
                     <div class="form-group">
-                      <input type="text" name="name" class="form-control" placeholder="Name" required="required" autocomplete="off">
+                      <input type="text" name="name" class="form-control" placeholder="Name" required="required"
+                        autocomplete="off">
                     </div>
                   </div>
                   <div class="col-sm-6">
                     <div class="form-group">
-                      <input type="email" name="email" class="form-control" placeholder="Email Address" required="required" autocomplete="off">
+                      <input type="email" name="email" class="form-control" placeholder="Email Address"
+                        required="required" autocomplete="off">
                     </div>
                   </div>
                 </div>
                 <div class="form-group">
-                  <input type="text" name="subject" class="form-control" placeholder="Subject" required="required" autocomplete="off">
+                  <input type="text" name="subject" class="form-control" placeholder="Subject" required="required"
+                    autocomplete="off">
                 </div>
                 <div class="form-group">
-                  <textarea name="message" id="message" class="form-control" rows="4" placeholder="Enter your message" required="required" autocomplete="off"></textarea>
-                </div>                        
+                  <textarea name="message" id="message" class="form-control" rows="4" placeholder="Enter your message"
+                    required="required" autocomplete="off"></textarea>
+                </div>
                 <div class="form-group">
                   <button type="submit" class="btn-submit">Send Now</button>
                 </div>
-              </form>   
+              </form>
             </div>
             <div class="col-sm-6">
               <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
                 <p>Get in touch with us!</p>
                 <ul class="address">
                   <li><i class="fa fa-map-marker"></i> <span> Address:</span> MIET College Meerut, Uttar Pradesh </li>
-                  <li><i class="fa fa-phone"></i> <span> Phone:</span>+917310644144  </li>
-                  <li><i class="fa fa-envelope"></i> <span> Email:</span><a href="mailto:cxi@miet.ac.in"> cxi@miet.ac.in</a></li>
+                  <li><i class="fa fa-phone"></i> <span> Phone:</span>+917310644144 </li>
+                  <li><i class="fa fa-envelope"></i> <span> Email:</span><a href="mailto:cxi@miet.ac.in">
+                      cxi@miet.ac.in</a></li>
                 </ul>
-              </div>                            
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>        
-  </section><!--/#contact-->
+    </div>
+  </section>
+  <!--/#contact-->
 
 
   <footer id="footer">
@@ -874,10 +1091,12 @@
         <div class="social-icons">
           <ul>
             <li><a class="envelope" href="mailto:cxi@miet.ac.in"><i class="fa fa-envelope"></i></a></li>
-           
+
             <li><a class="facebook" href="https://www.facebook.com/cximiet"><i class="fa fa-facebook"></i></a></li>
-            <li><a class="linkedin" href="https://www.linkedin.com/company/cxi-miet"><i class="fa fa-linkedin"></i></a></li>
-            <li><a class="dribbble" href="https://instagram.com/collaboration_x_innovation?utm_medium=copy_link"><i class="fa fa-instagram"></i></a></li>
+            <li><a class="linkedin" href="https://www.linkedin.com/company/cxi-miet"><i class="fa fa-linkedin"></i></a>
+            </li>
+            <li><a class="dribbble" href="https://instagram.com/collaboration_x_innovation?utm_medium=copy_link"><i
+                  class="fa fa-instagram"></i></a></li>
           </ul>
         </div>
       </div>
@@ -886,7 +1105,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
-            <p>&copy;  2019 CXI,Meerut Institute Of Engineering and Technology,Meerut,250005.</p>
+            <p>&copy; 2019 CXI,Meerut Institute Of Engineering and Technology,Meerut,250005.</p>
           </div>
           <div class="col-sm-6">
             <p class="pull-right">Designed by <a href="#">CXI</a></p>
@@ -909,4 +1128,5 @@
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
 </body>
+
 </html>
