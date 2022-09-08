@@ -175,11 +175,11 @@ let data = {
   Decision Tree Regression Random Forest Regression ).
   -Finally, we opted for Random Forest Regression for our model for its stable predictions through which we led our
   model to an accuracy of 99.6</p>
-  <h3>Photoes</h3>
+  <h3>Photos</h3>
   <div class="center">
   <img src="./images/portfolio/carbon_footprints.jpeg" width="60%" alt="">
  </div>` ,
- 
+
 	   'Nail_brain':`<h2>Nail the brain</h2><h3>ABOUT</h3><p>Nail the brain is an online learning project , malking continuous efforts to help you build your future regardless of fact from which college you belong.</p><h3>PROBLEMS SOLVED</h3><p>Flexibility<br> Lower cost<br>Includes IDE<br>Best guidance<br>Provides Roadmap for technologies<br>Provides ability to enhance your career</p>`,
 	   'cssbattleground':`<h2>CSS Battleground</h2>
 	   					<h3>First</h3>
