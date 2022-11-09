@@ -1193,3 +1193,23 @@ ul.address {
 }
 
 /*Presets*/
+
+/* Timer */
+.Timer{
+  position: sticky;
+  right: 10px;
+  bottom: 10px;
+  background: #E0144C;
+  color: #fff;
+  position: fixed;
+  font-size: 15px;
+  text-align: center;
+  height: 110px;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 0 #000;
+  z-index: 99999;
+}
+#timer{
+  font-size: 2rem;
+}
