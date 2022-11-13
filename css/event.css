@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.event-card{
+    padding: 30px 20px;
+    border: 1px solid rgba(255, 251, 251, 0.2);
+    border-radius: 10px;
+}
+.event-date{
+    line-height: normal;
+    padding: 1rem;
+}
+.event-date .day{
+    display: block;
+}
+
+.event-date .month{
+    font-size: 1.5rem;
+    display: block;
+    text-transform: capitalize;
+}
+
+.event-name{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+.details{
+    margin-bottom: 1rem;
+}
+.tag{
+    padding: 0.25rem 2rem;
+    border-radius: 2rem;
+    border: 1px solid #C3073F;
+    font-size: 1rem;
+    margin: 1rem;
+    text-transform: capitalize;
+}
+.event-desc{
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; 
+           line-clamp: 2; 
+   -webkit-box-orient: vertical;
+}
+.event-reg-date{
+    font-size: 1.3rem;
+    text-decoration: underline;
+}
+.reg-date{
+    font-weight: 800;
+}
+
