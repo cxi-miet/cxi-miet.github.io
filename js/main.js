@@ -221,17 +221,56 @@ let data = {
 
 // popup in profile section <over>
 
-// scroller in workshop section <start>
-let first_workshop = document.querySelector(".first_workshop")
-let second_workshop = document.querySelector(".second_workshop")
-let left_workshop = document.querySelector(".workshop_left")
-let right_workshop = document.querySelector(".workshop_right")
-left_workshop.addEventListener("click",()=>{
-	first_workshop.style.left="0"
-	second_workshop.style.right="-100vw"
-})
-right_workshop.addEventListener("click",()=>{
-	first_workshop.style.left="-100vw"
-	second_workshop.style.right="0"
-})
+// // scroller in workshop section <start>
+// let first_workshop = document.querySelector(".first_workshop")
+// let second_workshop = document.querySelector(".second_workshop")
+// let left_workshop = document.querySelector(".workshop_left")
+// let right_workshop = document.querySelector(".workshop_right")
+// left_workshop.addEventListener("click",()=>{
+// 	first_workshop.style.left="0"
+// 	second_workshop.style.right="-100vw"
+// })
+// right_workshop.addEventListener("click",()=>{
+// 	first_workshop.style.left="-100vw"
+// 	second_workshop.style.right="0"
+// })
 // scroller in workshop section <over>
+// dynamic scroller
+import {sdata} from './scroller_data.js'
+const cover = document.getElementById("cover");
+sdata.forEach((e,i) => {
+    cover.innerHTML+=`
+    <div class="box center" style="right:-${i*100}vw;">
+    <h1>${e.heading}</h1>
+    <br>
+    <h2>${e.heading1}</h2><br>
+    <p>${e.head_description}</p><br><br>
+    <h2>${e.heading2}</h2><br>
+    <p>${e.head2_description}</p><br>
+    ${e.line}<br>
+    <h2>${e.heading3}</h2><br>
+    <p>${e.head3_description}</p><br><br>
+    <div class="center" style="justify-content: space-evenly;">
+    <a href="https://cxi-miet.github.io/cssbattleground/" class="btn-submit" style="display:${e.display};">${e.button1}</a>
+    <a class="btn-submit" onclick="show_card('cssbattleground')" style="display:${e.display};">${e.button2}</a>
+    </div>
+    </div>
+    `
+});
+let transform = 0;
+document.getElementById('right').addEventListener('click',()=>{
+    if(transform==sdata.length-1){
+        transform = 0;
+    }else{
+        transform++;
+    }
+    cover.style = `transform:translate(-${transform*100}vw)`
+})
+document.getElementById('left').addEventListener('click',()=>{
+    if(transform==0){
+        transform = sdata.length-1;
+    }else{
+        transform--;
+    }
+    cover.style = `transform:translate(-${transform*100}vw)`
+})
