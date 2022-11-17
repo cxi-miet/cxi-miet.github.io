@@ -9,7 +9,9 @@ export const sdata = [
         heading3:"Tools and Technologies Used!",
         head3_description:"HTML, CSS, CSS(Preprocessor)",
         button1:"More Info.",
+        btn1_link:"https://cxi-miet.github.io/cssbattleground/",
         button2:"Photos",
+        btn2_link:"csspics.html",
         display:"block",
     },
     {
@@ -22,7 +24,9 @@ export const sdata = [
         heading3:"Tools and Technologies Used!",
         head3_description:"Throughout the workshop we used following tools and Technologies:<br><br>Frontend: HTML, CSS, JavaScript, ReactJs, jQuery<br>Framework: Bootstrap, ReactJs<br>Backend: JAVA Servlets, MySQL<br>Deployment: AWS Cloud",
         button1:"",
+        btn1_link:"",
         button2:"",
+        btn2_link:"",
         display:"none",
     }
 ]

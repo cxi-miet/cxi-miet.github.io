@@ -251,8 +251,8 @@ sdata.forEach((e,i) => {
     <h2>${e.heading3}</h2><br>
     <p>${e.head3_description}</p><br><br>
     <div class="center" style="justify-content: space-evenly;">
-    <a href="https://cxi-miet.github.io/cssbattleground/" class="btn-submit" style="display:${e.display};">${e.button1}</a>
-    <a class="btn-submit" onclick="show_card('cssbattleground')" style="display:${e.display};">${e.button2}</a>
+    <a href="${e.btn1_link}" class="s_btn" style="display:${e.display};">${e.button1}</a>
+    <a class="s_btn" href="${e.btn2_link}" style="display:${e.display};">${e.button2}</a>
     </div>
     </div>
     `

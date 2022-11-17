@@ -1,4 +1,4 @@
-time="15 nov 2022 11:00:00";
+time="18 nov 2022 11:00:00";
 const countDate = new Date(time).getTime();
 var x = setInterval(function () {
     let now = new Date().getTime();

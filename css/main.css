@@ -1247,7 +1247,9 @@ ul.address {
 
 /* dynamic scroller */
 #slider{
-  height: 100vh;
+  height: 160vh;
+  width: 100%;
+  overflow: hidden;
 }
 .center{
   display: flex;
@@ -1279,17 +1281,23 @@ ul.address {
 }
 .box{
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   flex-direction: column;
   position: absolute;
   transform: translateX(50%);
   text-align: center;
 }
-.btn-submit{
-  background:red;
+.s_btn{
+  background: #E0144C;
+  color:#fff;
   padding: 10px;
   border-radius: 10px;
   text-decoration: none;
+  width: 100px;
+}
+.s_btn:hover{
+  color: #fff;
+  transform: scale(1.1);
 }
 hr{
   width: 70%;
