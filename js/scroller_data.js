@@ -11,7 +11,7 @@ export const sdata = [
         button1:"More Info.",
         btn1_link:"https://cxi-miet.github.io/cssbattleground/",
         button2:"Photos",
-        btn2_link:"csspics.html",
+        btn2_link:"#",
         display:"block",
     },
     {
