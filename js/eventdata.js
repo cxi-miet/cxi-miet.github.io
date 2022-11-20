@@ -16,7 +16,7 @@ export const events =  [
         date: "2022-11-12",
         mode: "online",
         prize: "null",
-        description: "Choose the president,vice-president,secretary,people executive,event manager of the cxi",
+        description: "Elected President, Pice-President, Secretary and Mentors of the CXI",
         registration: "",
         link: ""  
     },
@@ -25,7 +25,7 @@ export const events =  [
         date: "2022-10-20",
         mode: "offline",
         prize: "null",
-        description: "All the members of cxi came for meet and greet",
+        description: "All the members of CXI came for meet and greet",
         registration: "",
         link: ""  
     },
@@ -43,7 +43,7 @@ export const events =  [
         date: "2022-11-03",
         mode: "offline",
         prize: "null",
-        description: "Tells about the cxi to the mietians and hwo to register and came to the cxi",
+        description: "Tells about the CXI the audience and how to register and join the CXI",
         registration: "",
         link: ""  
     },
