@@ -1,68 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CXI - Events</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/lightbox.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/event.css" rel="stylesheet">
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link id="css-preset" href="css/presets/preset7.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>CXI - Collaboration x Innovation</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link id="css-preset" href="css/presets/preset7.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+  <![endif]-->
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="images/logo1.png">
 </head>
+<!--/head-->
+
 <body>
-    <header id="home">
-        <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="item active" style="background-image: url(images/slider/1.jpg)">
-              <div class="caption">
-                <h1 class="animated fadeInLeftBig">Events Organised by <span>CXI</span></h1>
-                <p class="animated fadeInRightBig">Computer Science Club of MIET</p>
-              </div>
-            </div>
-          </div>
-          <a href="#upcomingEvents"><i class="fa fa-angle-down"></i></a>
-        </div>
-        <!--/#home-slider-->
-        <div class="main-nav">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="index.html#services">
-                <h1>CXI</h1>
-              </a>
-            </div>
-            <div class="collapse navbar-collapse">
-              <ul class="nav navbar-nav navbar-right">
-                <li class="scroll"><a href="index.html">Home</a></li>
-                <li class="scroll"><a href="index.html#services">Service</a></li>
-                <li class="scroll"><a href="index.html#about-us">About Us</a></li>
-                <li class="scroll"><a href="index.html#portfolio">Portfolio</a></li>
-                <li class="scroll"><a href="index.html#workshop">Workshop</a></li>
-                <li class="scroll"><a href="index.html#team">Team</a></li>
-                <li class="scroll"><a href="index.html#contact">Contact</a></li>
-                <li class="scroll active"><a href="event.html">Events</a></li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://cxi-miet.github.io/constitution/" target="_blank">Club Constitution</a>
-                </li>
-    
-              </ul>
-            </div>
+
+  <header id="home">
+    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active" style="background-image: url(images/slider/1.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Events Organised by <span>CXI</span></h1>
+            <p class="animated fadeInRightBig">Computer Science Club of MIET</p>
           </div>
         </div>
-        <!--/#main-nav-->
-    </header>
+      </div>
+      <a href="#services"><i class="fa fa-angle-down"></i></a>
+
+
+    </div>
+<!--     Timer -->
+<!--     <div class="Timer">
+      <h1 style="color: #fff;">Live Event</h1>
+      <div id="timer"></div>
+    </div> -->
+<!--     Timer end -->
+    <!--/#home-slider-->
+    <div class="main-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#services">
+            <h1>CXI</h1>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="scroll"><a href="index.html">Home</a></li>
+            <!-- <li class="scroll"><a href="index.html#services">Service</a></li> -->
+            <li class="scroll"><a href="index.html#about-us">About Us</a></li>
+            <li class="scroll"><a href="index.html#portfolio">Portfolio</a></li>
+            <li class="scroll"><a href="index.html#workshop">Services</a></li>
+            <li class="scroll"><a href="index.html#team">Team</a></li>
+            <li class="scroll"><a href="index.html#contact">Contact</a></li>
+            <li class="scroll active"><a href="event.html">Events</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://cxi-miet.github.io/constitution/" target="_blank">Club Constitution</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--/#main-nav-->
+  </header>
 
     <main>
 
@@ -83,7 +102,7 @@
               <template id="up-event-temp">
                 <div class="event-card col-sm-6 col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                   <div class="event-date">
-                    <span class="day">date here</span> <span class="month">month here</span>
+                    <span class="day">date here</span>  <span class="month">month here</span>
                   </div>
                   <h3 class="event-name">Event name</h3>
                   <div class="details">
@@ -141,7 +160,7 @@
         <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
           <div class="container text-center">
             <div class="footer-logo">
-              <a href="#home"><img class="img-responsive logo" src="images/logo.jpeg" alt=""></a>
+              <a href="#home"><img class="img-responsive logo" src="images/logo.png" alt=""></a>
             </div>
             <div class="social-icons">
               <ul>
@@ -170,16 +189,11 @@
         </div>
       </footer>
     
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/jquery.inview.min.js"></script>
-    <script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/mousescroll.js"></script>
-    <script type="text/javascript" src="js/smoothscroll.js"></script>
-    <script type="text/javascript" src="js/jquery.countTo.js"></script>
-    <script type="text/javascript" src="js/lightbox.min.js"></script>
-    <script type="text/javascript" src="js/main2.js"></script>
-    <script type="module" src="js/event.js"></script>
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+      <script type="text/javascript" src="js/jquery.js"></script>
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <script type="module" src="js/event.js"></script>
+       <!-- on scroll animation -->
+      <script type="text/javascript" src="js/wow.min.js"></script> 
+      <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

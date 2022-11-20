@@ -31,7 +31,7 @@ function createEvent(){
 }
 
 function entries(clone, evt, evtDate){
-    clone.querySelector(".day").textContent = evtDate.getDate();
+    clone.querySelector(".day").textContent = (evtDate.getDate().toString().length==1)?`0${evtDate.getDate()}`:evtDate.getDate();
     clone.querySelector(".month").textContent = months[evtDate.getMonth()];
     clone.querySelector(".event-name").textContent = evt.name;
     clone.querySelector(".mode").textContent = evt.mode;

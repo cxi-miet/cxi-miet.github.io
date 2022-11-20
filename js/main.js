@@ -43,8 +43,8 @@ jQuery(function($) {
 		var rangeTop    =   200;
 		var rangeBottom =   500;
 		$('.navbar-collapse').find('.scroll a').each(function(){
-			contentTop.push( $( $(this).attr('href') ).offset().top);
-			contentBottom.push( $( $(this).attr('href') ).offset().top + $( $(this).attr('href') ).height() );
+			// contentTop.push( $( $(this).attr('href') ).offset().top);
+			// contentBottom.push( $( $(this).attr('href') ).offset().top + $( $(this).attr('href') ).height() );
 		})
 		$.each( contentTop, function(i){
 			if ( winTop > contentTop[i] - rangeTop ){
@@ -66,7 +66,7 @@ jQuery(function($) {
     }
 	
 	//smoothScroll
-	smoothScroll.init();
+	// smoothScroll.init();
 	
 	// Progress Bar
 	$('#about-us').bind('inview', function(event, visible, visiblePartX, visiblePartY) {
@@ -139,30 +139,29 @@ jQuery(function($) {
 		});
 	});
 
-	//Google Map
-	var latitude = $('#google-map').data('latitude')
-	var longitude = $('#google-map').data('longitude')
-	function initialize_map() {
-		var myLatlng = new google.maps.LatLng(latitude,longitude);
-		var mapOptions = {
-			zoom: 14,
-			scrollwheel: false,
-			center: myLatlng
-		};
-		var map = new google.maps.Map(document.getElementById('google-map'), mapOptions);
-		var contentString = '';
-		var infowindow = new google.maps.InfoWindow({
-			content: '<div class="map-content"><ul class="address">' + $('.address').html() + '</ul></div>'
-		});
-		var marker = new google.maps.Marker({
-			position: myLatlng,
-			map: map
-		});
-		google.maps.event.addListener(marker, 'click', function() {
-			infowindow.open(map,marker);
-		});
-	}
-	google.maps.event.addDomListener(window, 'load', initialize_map);
+// 	var latitude = $('#google-map').data('latitude')
+// 	var longitude = $('#google-map').data('longitude')
+// 	function initialize_map() {
+// 		var myLatlng = new google.maps.LatLng(latitude,longitude);
+// 		var mapOptions = {
+// 			zoom: 14,
+// 			scrollwheel: false,
+// 			center: myLatlng
+// 		};
+// 		var map = new google.maps.Map(document.getElementById('google-map'), mapOptions);
+// 		var contentString = '';
+// 		var infowindow = new google.maps.InfoWindow({
+// 			content: '<div class="map-content"><ul class="address">' + $('.address').html() + '</ul></div>'
+// 		});
+// 		var marker = new google.maps.Marker({
+// 			position: myLatlng,
+// 			map: map
+// 		});
+// 		google.maps.event.addListener(marker, 'click', function() {
+// 			infowindow.open(map,marker);
+// 		});
+// 	}
+// 	google.maps.event.addDomListener(window, 'load', initialize_map);
 	
 });
 
@@ -206,11 +205,15 @@ let data = {
 	  let popup = document.getElementById("popup");
 	  let button = document.getElementById("button");
 	  // Close Popup Event
-	  closePopup.onclick = function() {
-		overlay.style.display = 'none';
-		popup.style.display = 'none';
-		document.querySelector("body").style.overflowY="scroll"
-	};
+	  try{
+		closePopup.onclick = function() {
+			overlay.style.display = 'none';
+			popup.style.display = 'none';
+			document.querySelector("body").style.overflowY="scroll"
+		};
+	  }catch(e){
+
+	  }
 	// Show Overlay and Popup
 	function show_card(e) {
 		overlay.style.display = 'block';
@@ -226,12 +229,38 @@ let first_workshop = document.querySelector(".first_workshop")
 let second_workshop = document.querySelector(".second_workshop")
 let left_workshop = document.querySelector(".workshop_left")
 let right_workshop = document.querySelector(".workshop_right")
-left_workshop.addEventListener("click",()=>{
-	first_workshop.style.left="0"
-	second_workshop.style.right="-100vw"
-})
-right_workshop.addEventListener("click",()=>{
-	first_workshop.style.left="-100vw"
-	second_workshop.style.right="0"
-})
+try {
+	left_workshop.addEventListener("click",()=>{
+		first_workshop.style.left="0"
+		second_workshop.style.right="-100vw"
+	})
+	right_workshop.addEventListener("click",()=>{
+		first_workshop.style.left="-100vw"
+		second_workshop.style.right="0"
+	})
+} catch (error) {
+	
+}
 // scroller in workshop section <over>
+
+//==============scroll=====================
+//=================sections=================
+let link= document.querySelectorAll(".link");
+let bottomPage=window.innerHeight/6*2;
+let section = document.querySelectorAll("section");
+window.addEventListener("scroll",()=>{
+        // for adjust navbar link
+        try {
+			for(let i=0;i<6;i++){
+				let len=section[i].getBoundingClientRect().top;
+				if(len>=-10 && len<=bottomPage){
+					 link.forEach((e)=>{
+						 e.classList="link";
+					 });
+					 link[i].classList="link active"
+				}
+			}
+		} catch (error) {
+			
+		}
+});

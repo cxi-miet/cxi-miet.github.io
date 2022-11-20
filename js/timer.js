@@ -1,4 +1,4 @@
-var time="10 nov 2022 11:00:00";
+var time="30 nov 2022 11:00:00";
 const countDate = new Date(time).getTime();
 var x = setInterval(function () {
     let now = new Date().getTime();
@@ -9,10 +9,15 @@ var x = setInterval(function () {
     var min = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var sec = Math.floor((distance % (1000 * 60)) / (1000));
 
-    document.getElementById("timer").innerHTML= d + "d " + hrs + "h " + min + "m " + sec + "s";
+    try {
+        document.getElementById("timer").innerHTML= d + "d " + hrs + "h " + min + "m " + sec + "s" 
+    } catch (error) {
+         
+    }
 
     if(distance<0){
         x= setInterval(0);
-        document.getElementById("timer").innerHTML= "No event is available right now.";
+        try{document.getElementById("timer").innerHTML= "No event is available right now.";
+    }catch(e){}
     }
 })

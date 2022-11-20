@@ -687,7 +687,9 @@ section {
 
 .team-members {
   margin-bottom: 25px;
+  transition: .3s all ease;
 }
+
 #row1{
   margin-bottom: 15px;
 }
@@ -711,7 +713,9 @@ section {
 #row1 .team-member:hover .social-icons ul li a.linkedin {
   background-color: #036dc0;
 }
-
+#row2{
+  margin-top: 203rem;
+}
 .social-icons {
   margin-top: 30px;
   text-align: center;
@@ -790,6 +794,7 @@ section {
   width: 100%;
   border-radius: 5px;
 }
+
 
 /*************************
 *******Features CSS*******
@@ -1150,6 +1155,10 @@ ul.address {
 .footer-logo {
   display: inline-block;
   margin-bottom: 5px;
+}
+.footer-logo img{
+  margin: auto;
+ width: 20%; 
 }
 
 #footer .social-icons {
