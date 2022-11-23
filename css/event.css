@@ -52,4 +52,11 @@
 .reg-date{
     font-weight: 800;
 }
+.event-row {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.event-row [class*="col-"] {
+    flex-grow: 1;
+}
