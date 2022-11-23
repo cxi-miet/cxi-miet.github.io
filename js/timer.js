@@ -9,11 +9,10 @@ var x = setInterval(function () {
     var min = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var sec = Math.floor((distance % (1000 * 60)) / (1000));
 
-    try {
-        document.getElementById("timer").innerHTML= d + "d " + hrs + "h " + min + "m " + sec + "s" 
-    } catch (error) {
-         
-    }
+    document.getElementById("days").innerHTML= d + "d ";
+    document.getElementById("hours").innerHTML= hrs + "h  ";
+    document.getElementById("minutes").innerHTML= min + "m ";
+    document.getElementById("seconds").innerHTML= sec + "s ";
 
     if(distance<0){
         x= setInterval(0);
