@@ -70,11 +70,16 @@
 
 
 <!--     Timer -->
-    <!-- <div class="Timer">
-      <h1 style="color: #fff;">Live Event</h1>
-      <div id="timer"></div>
-    </div> -->
-<!--     Timer end -->
+<!-- <div class="countdown down ">
+  <h1>Live Event</h1>
+  <div id="timer">
+      <p class="time_element" id="days"></p>
+      <p class="time_element" id="hours"></p>
+      <p class="time_element" id="minutes"></p>
+      <p class="time_element" id="seconds"></p>
+  </div>
+</div> -->
+    <!--     Timer end -->
 
 
 
@@ -511,89 +516,14 @@
 
 
   <!-- workshop -->
-  <section class="scroller center">
-    <div class="workshop_left" title="Turn Left">⋘</div>
-    <div class="workshop_right" title="Turn Right">⋙</div>
-    <div class="workshop first_workshop" id="workshop">
-      <div class="workshop-heading text-center">
-        <h1>CSS BattleGround (Competetion) </h1>
-      </div>
-      <div class="container">
-        <div class="row " style="flex-direction: column;">
-          <div class="row">
-            <div class="col-md-10 work-bottom">
-              <h4>About</h4>
-              <p>CSS BattleGround is an online CSS code golfing game...
-                <br>
-                CSS BattleGround is one of its kind game for frontend developers.
-                <br>
-                The objective of the game is to write CSS to replicate the given target image in the least code possible
-                in the given time allotted.
-              </p>
-              <br>
-              <p><b>PRICE</b> <br>
-                There were 3 position</p>
-              <p>🥇 Ist position got ₹1500 cash price
-                <br> 🥈 IInd position got ₹1000 cash price
-                <br> 🥉 IIIrd position got ₹500 cash price
-                <br> 🎫 100% Certification
-              </p>
-              <p> Total participants: 110</p>
-
-
-            </div>
-          </div>
-          <div class="col-md-10 work-right">
-            <h4>Tools and Technologies Used!</h4>
-            <p>
-              HTML, CSS, CSS(Preprocessor)
-            </p>
-            
-            <div>
-             <div class="center" style="justify-content: space-evenly;">
-              <a href="https://cxi-miet.github.io/cssbattleground/"><button class="btn-submit">More Info.</button></a>
-              <a><button class="btn-submit" onclick="show_card('cssbattleground')">Photos</button></a>
-             </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="workshop second_workshop" id="workshop">
-      <div class="workshop-heading text-center">
-        <h1>Web Development Workshop</h1>
-      </div>
-      <div class="container">
-        <div class="row " style="flex-direction: column;">
-          <div class="row">
-            <div class="col-md-10 work-bottom">
-              <h4>Project We Built</h4>
-              <p>The Railway Bus Management System is a real-time tracking system that aims to facilitate the railways’
-                passengers to transport them from distributed locations throughout the city/region to their respective
-                railway stations conveniently and within time. Further this model shall reduce overcrowding at stations
-                and passenger traffic on roads.</p>
-              <p>The system takes train's arrival information and passengers’ location as input. It analyses the
-                information and provides the passengers an interactive list and routes of appropriate buses available
-                near them with their appropriate timings which can drop them directly at their station within time. An
-                Admin module controls all the predefined factors like management of buses, routes, timings, conductors,
-                logins; handling availability of buses etc.</p>
-              <p>The workshop was accomplished successfully with 20 participants, 8 mentors and 3 instructor</p>
-            </div>
-          </div>
-          <div class="col-md-10 work-right">
-            <h4>Tools and Technologies Involved!</h4>
-            <p>Throughout the workshop we used following tools and Technologies:
-              <br>
-              <br>Frontend: HTML, CSS, JavaScript, ReactJs, jQuery
-              <br>Framework: Bootstrap, ReactJs
-              <br>Backend: JAVA Servlets, MySQL
-              <br>Deployment: AWS Cloud
-            </p>
-          </div>
-        </div>
-      </div>
+  <section id="slider" class="center">
+    <div class="swiper center" id="swiper">
+      <div class="cover center" id="cover"></div>
+      <div class="right" id="right">></div>
+      <div class="left" id="left">&#60;</div>
     </div>
   </section>
+  <!-- workshop end -->
 
 
   <section id="team">
@@ -861,11 +791,13 @@
   </footer>
 
   <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/popup,js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/scroller_data.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/timer.js"></script>
+  <!-- <script type="text/javascript" src="js/timer.js"></script> -->
    <!-- on scroll animation -->
   <script type="text/javascript" src="js/wow.min.js"></script> 
-  <script type="text/javascript" src="js/main.js"></script>
 
 </body>
 
