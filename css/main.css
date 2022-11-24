@@ -1260,6 +1260,8 @@ ul.address {
   height: 160vh;
   width: 100%;
   overflow: hidden;
+  background: url(/images/slider/4.jpeg) no-repeat;
+  background-size: contain, cover;
 }
 .center{
   display: flex;
