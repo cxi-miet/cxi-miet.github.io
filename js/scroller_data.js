@@ -1,4 +1,4 @@
-export const sdata = [
+const sdata = [
     {
         heading:"CSS BattleGround (Competetion)<br>",
         heading1:"About<br>",
@@ -26,3 +26,43 @@ export const sdata = [
         display:"none",
     }
 ]
+// scroller in workshop section <start>
+
+const cover = document.getElementById("cover");
+sdata.forEach((e, i) => {
+	cover.innerHTML += `
+    <div class="box center" style="right:-${i*100}vw;">
+    <h1>${e.heading}</h1>
+    <br>
+    <h2>${e.heading1}</h2><br>
+    <p>${e.head_description}</p>
+    <h2>${e.heading2}</h2><br>
+    <p>${e.head2_description}</p><br>
+    ${e.line}<br>
+    <h2>${e.heading3}</h2><br>
+    <p>${e.head3_description}</p><br><br>
+    <div class="center" style="justify-content: space-evenly;">
+    <a href="https://cxi-miet.github.io/cssbattleground/" class="s_button" style="display:${e.display};">${e.button1}</a>
+    <a class="s_button" onclick="show_card('cssbattleground')" style="display:${e.display};">${e.button2}</a>
+    </div>
+    </div>
+    `
+});
+let transform = 0;
+document.getElementById('right').addEventListener('click', () => {
+	if (transform == sdata.length - 1) {
+		transform = 0;
+	} else {
+		transform++;
+	}
+	cover.style = `transform:translate(-${transform*100}vw)`
+})
+document.getElementById('left').addEventListener('click', () => {
+	if (transform == 0) {
+		transform = sdata.length - 1;
+	} else {
+		transform--;
+	}
+	cover.style = `transform:translate(-${transform*100}vw)`
+})
+// scroller in workshop section <over>

@@ -47,6 +47,24 @@ h3 {
   justify-content: center;
   align-items: center;
 }
+/* scroll bar */
+/* width  */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #C3073F;
+  border-radius: 8px;
+}
+/* scroll bar over */
+
 .parallax {
   background-size: cover;
   background-repeat: no-repeat;
@@ -1260,8 +1278,10 @@ ul.address {
   height: 160vh;
   width: 100%;
   overflow: hidden;
-  background: url(/images/slider/4.jpeg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/twitter-bg.jpg);
   background-size: contain, cover;
+  background-attachment: fixed;
+
 }
 .center{
   display: flex;
