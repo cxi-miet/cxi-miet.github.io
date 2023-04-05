@@ -39,6 +39,11 @@ function entries(clone, evt, evtDate){
     clone.querySelector(".mode").textContent = evt.mode;
     clone.querySelector(".prize").textContent = evt.prize;
     clone.querySelector(".event-desc").textContent = evt.description;
-    clone.querySelector(".link").href = evt.link;  
+    if(!evt.link){
+        clone.querySelector(".link").style.display = "none";
+    }else{
+        clone.querySelector(".link").href = evt.link;  
+    }
+    
 }
 

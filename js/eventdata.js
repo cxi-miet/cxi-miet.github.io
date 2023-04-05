@@ -1,39 +1,22 @@
 export const events =  [
     
     {
-        name: "Frontend Showdown (Round 1)",
+        name: "Frontend Showdown",
         date: "2023-04-23",
-        mode: "online",
-        prize: "Go to next Round",
-        description: "Frontend showdown is a competition which encourages student developers to build up a webpage",
-        registration: "2023-04-22",
-        link: ""  
-    },
-    {
-        name: "The Elevate Challenge (Round 1)",
-        date: "2023-04-23",
-        mode: "offline",
-        prize: "Go to next Round",
-        description: "Student have to make the network and configure according to the parameter provided on Cisco Packet Tracer",
-        registration: "2023-04-22",
-        link: ""  
-    },
-    {
-        name: "Frontend Showdown (Round 2)",
-        date: "2023-04-29",
         mode: "online",
         prize: "Internship in Startups",
         description: "Frontend showdown is a competition which encourages student developers to build up a webpage",
-        registration: "Closed",
-        link: ""  
+        registration: "2023-04-22",
+        // link: "https://cxi-miet.github.io/Frontend-Showdown/"  
+        link:""
     },
     {
-        name: "The Elevate Challenge (Round 2)",
-        date: "2023-04-29",
+        name: "The Elevate Challenge",
+        date: "2023-04-23",
         mode: "offline",
         prize: "Certificates and Momentos",
         description: "Student have to make the network and configure according to the parameter provided on Cisco Packet Tracer",
-        registration: "Closed",
+        registration: "2023-04-22",
         link: ""  
     },
     {
