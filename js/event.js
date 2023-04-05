@@ -33,6 +33,8 @@ function createEvent(){
 function entries(clone, evt, evtDate){
     clone.querySelector(".day").textContent = (evtDate.getDate().toString().length==1)?`0${evtDate.getDate()}`:evtDate.getDate();
     clone.querySelector(".month").textContent = months[evtDate.getMonth()];
+    console.log(clone.querySelector(".year"))
+    clone.querySelector(".year").textContent = evtDate.getFullYear();
     clone.querySelector(".event-name").textContent = evt.name;
     clone.querySelector(".mode").textContent = evt.mode;
     clone.querySelector(".prize").textContent = evt.prize;
