@@ -7,8 +7,7 @@ export const events =  [
         prize: "Internship in Startups",
         description: "Frontend showdown is a competition which encourages student developers to build up a webpage",
         registration: "2023-04-22",
-        // link: "https://cxi-miet.github.io/Frontend-Showdown/"  
-        link:""
+        link: "https://cxi-miet.github.io/Frontend-Showdown/"  
     },
     {
         name: "The Elevate Challenge",
@@ -17,7 +16,7 @@ export const events =  [
         prize: "Certificates and Momentos",
         description: "Student have to make the network and configure according to the parameter provided on Cisco Packet Tracer",
         registration: "2023-04-22",
-        link: ""  
+        link: "https://cxi-miet.github.io/Elevate-Challenge/"  
     },
     {
         name: "Present It",
@@ -26,7 +25,7 @@ export const events =  [
         prize: "Certificates and Momentos",
         description: "Participants are required to make a presentation on any of the topics and they are required to present PPT",
         registration: "2023-04-25",
-        link: ""  
+        link: "https://cxi-miet.github.io/present-it/"  
     },
     {
         name: "CXI Election 2k22",
